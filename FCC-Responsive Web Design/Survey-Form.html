@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cssreset.css">
+    <link rel="stylesheet" href="Survey-Form.css">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <div class="forms">
+        <header>
+            <h1 id="title">Generic ISP Survey Form</h1>
+            <p id="description">Thank you for taking your time in helping us to improve our sevrices</p>
+        </header>
+        <form id="survey-form" action="#">
+            <div>
+                <label id="name-label" for="name">
+                    <div>Name</div>
+                </label>
+                <input type="text" name="name" id="name" class="survey-input" placeholder="Please Enter Your Name"
+                    required>
+            </div>
+
+            <div>
+                <label id="email-label" for="email">
+                    <div>Email</div>
+                </label>
+                <input type="email" name="email" id="email" class="survey-input"
+                    placeholder="Please enter valid email id" required>
+            </div>
+
+            <div>
+                <label id="number-label" for="age">
+                    <div>Age</div>
+                </label>
+                <input type="number" name="age" id="number" class="survey-input" placeholder="Enter your age" min="13"
+                    max="110">
+            </div>
+
+            <div>
+                <p>Current data plan</p>
+
+                <select name="plans" id="dropdown">
+                    <option disabled selected>Select your plan</option>
+                    <option value="starter">50mb/s - Starter 1TB</option>
+                    <option value="valuepack">75mb/s - Value 1.5TB</option>
+                    <option value="economy">100mb/s - Economy unlimited</option>
+                    <option value="premium">150mb/s - Premium unlimited</option>
+                    <option value="elite">200mb/s - Elite unlimited</option>
+                </select>
+            </div>
+
+            <div class="form-radio">
+                <p>Will you recommend us to your friends?</p>
+
+                <label for="positive">
+                    <input type="radio" name="recommend" value="positive">
+                    Definitely</label>
+
+                <label for="uncertain">
+                    <input type="radio" name="recommend" value="uncertain">
+                    Maybe</label>
+
+                <label for="negative">
+                    <input type="radio" name="recommend" value="negative">
+                    Not sure</label>
+
+            </div>
+
+            <div class="form-checkbox">
+                <p>Sevrices that can be improved</p>
+
+                <label for="flexible-plans">
+                    <input type="checkbox" name="improve" value="flexible-plans">
+                    Plan Flexibility</label>
+
+                <label for="plan-cost">
+                    <input type="checkbox" name="improve" value="plan-cost">
+                    Costs</label>
+
+                <label for="support">
+                    <input type="checkbox" name="improve" value="support">
+                    Support</label>
+            </div>
+
+            <div>
+                <p>Any Suggestions or grievances?</p>
+                <textarea name="suggestions" id="comments"> Enter your suggestions here ....</textarea>
+            </div>
+
+            <div>
+                <button type="submit" id="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>

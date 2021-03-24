@@ -1,0 +1,142 @@
+html {
+	font-family: 'Cabin', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+body {
+    background-image: linear-gradient(to right, #24243e, #302b63, #0f0c29), url("https://images.unsplash.com/photo-1518181835702-6eef8b4b2113");
+	background-blend-mode: soft-light;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	display: grid;
+	grid-template-columns: 	2fr 4fr 2fr;
+	grid-template-rows: 0.25fr 5fr 0.5fr;
+	font-size: 1.25rem;
+}
+
+.forms {
+	color: #fef9ff;
+	text-align: center;
+	line-height: 1.5;
+	grid-column: 2/3;
+	grid-row: 2/3;
+}
+
+h1 {
+	font-size: 2rem;
+	padding-bottom: 5px;
+}
+
+#survey-form {
+	background-color: #065a82;
+	display: block;
+	border-radius: 5px;
+}
+
+#name, #email, #number, #dropdown, #comments{
+	width: 85%;
+	height: 1.5rem;
+	border-radius: 0.25rem;
+	background-color: #FFF;
+	background-clip: padding-box;
+	padding: 0.125rem 0.25rem;
+	border: 1px solid #04080f;
+	color: black;
+	font-weight: 500;
+	font-size: 1rem;
+}
+
+.form-radio, .form-checkbox, p {
+	font-size: 1.15rem;
+	padding: 5px 0;
+}
+
+#comments {
+	height: 5rem;
+	outline: 0;
+}
+
+#submit {
+	width: 80%;
+	height: 2rem;
+	background-color: green;
+	font-size: 1rem;
+	color: #fef9ff;
+	border-radius: 0.25rem;
+	margin: 1.5rem 0;
+	cursor: pointer;
+	padding: 0.35rem;
+	outline: 0;
+}
+
+#submit:hover {
+	background-color: rgb(21,220,66);
+	transition: background-color 200ms;
+}
+
+@media (max-width:900px) {
+	h1 {
+		font-size: 1.5rem;
+	}
+	
+	#name, #email, #number, #dropdown, #comments{
+		font-size: 0.75rem;
+	}
+	
+	#name-label, #email-label, #number-label {
+		font-size: 1.15rem;
+	}
+	
+	.form-radio, .form-checkbox, p {
+		font-size: 0.9rem;
+	}
+
+	.form-radio label, .form-checkbox label {
+		display: flex;
+		padding: 0 1rem;
+		font-size: 1rem;
+		text-align: center;
+	}
+}
+
+@media (max-width:650px) {
+	h1 {
+		font-size: 1.25rem;
+	}
+	
+	#name, #email, #number, #dropdown, #comments{
+		font-size: 0.5rem;
+	}
+	
+	#name-label, #email-label, #number-label {
+		font-size: 0.9rem;
+	}
+	
+	.form-radio, .form-checkbox, p {
+		display: block;
+		font-size: 0.75rem;
+	}
+
+	#submit {
+		height: 1.5rem;
+		font-size: 0.75rem;
+		padding: 0.15rem;
+	}
+}
+
+@media (min-width: 480px) {
+	#survey-form input, #dropdown {
+		outline: 0;
+	}
+	.survey-input {
+		transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+	}
+
+	.survey-input:focus {
+		border-color: #bee9e8;
+		box-shadow: 0 0 0 0.2rem #62b6cb;
+	}
+}

@@ -1,0 +1,129 @@
+body {
+    background-color: #f3f7f6;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 20px;
+    color: black;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #f3f7f6;
+    border-right: 2px solid #bfd4cf;
+}
+
+header {
+    font-size: 25px;
+    text-align: center;
+    margin: 1rem 0;
+    font-weight: 600;
+}
+#navbar ul {
+    list-style: none;
+    height: 80%;
+    font-size: 20px;
+    overflow: hidden auto;
+}
+
+#navbar li {
+    position: relative;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0.75rem 0;
+    border-top: 2px solid #bfd4cf;
+}
+
+#navbar a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+#main-doc {
+    position: absolute;
+    padding: 20px;
+    margin: 0 10px 100px 260px;
+}
+
+.main-section header {
+    text-align: left;
+    margin: 10px 0;
+}
+
+.main-section article {
+    padding: 0 15px;
+}
+
+#main-doc ul {
+    list-style: disc inside;
+    text-align: left;
+    margin-left: 20px;
+}
+
+pre {
+    background-color: #dae7e4;
+    font-weight: 300;
+    line-height: 2;
+    word-spacing: 2.5px;
+}
+
+.block-code {
+    display: block;
+    white-space: pre;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+@media (max-width:850px) {
+    #navbar {
+        position: absolute;
+        top: 0;
+        max-height: 300px;
+        width: 100%;
+        border-right: 0;
+        background: #dae7e4;
+        overflow: auto hidden;
+    }
+
+    #navbar ul {
+        border: 10px solid #dae7e4;
+    }
+
+    #main-doc {
+        position: relative;
+        margin: 320px 10px 50px 10px;
+        padding-top: 0;
+    }
+}
+
+@media (max-width:600px) {
+    header {
+        font-size: 20px;
+    }
+
+    #main-doc {
+        margin: 300px 0 20px 0;
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .block-code {
+        font-size: 15px;
+        padding: 10px;
+        margin: 10px;
+        overflow-x: scroll;
+    }
+
+    pre {
+        line-height: 1.5;
+        word-spacing: 1px;
+    }
+}

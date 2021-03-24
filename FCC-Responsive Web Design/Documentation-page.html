@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cssreset.css">
+    <link rel="stylesheet" href="Documentation-page.css">
+    <title>Perl Documentation</title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <header>Perl Documentation</header>
+        <ul>
+            <li><a class="nav-link" href="#Description">Description</a></li>
+            <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+            <li><a class="nav-link" href="#Running_Perl_Programs">Running Perl programs</a></li>
+            <li><a class="nav-link" href="#Safetynet">Safetynet</a></li>
+            <li><a class="nav-link" href="#Basic_Syntax">Basic Syntax</a></li>
+            <li><a class="nav-link" href="#Summary">Summary</a></li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+
+        <section id="Description" class="main-section">
+            <header>Description</header>
+            <article>
+                <p>This document is intended to give you a quick overview of the Perl programming language, along with
+                    pointers to further documentation. It is intended as a "bootstrap" guide for those who are new to
+                    the language, and provides just enough information for you to be able to read other peoples' Perl
+                    and understand roughly what it's doing, or write your own simple scripts.</p>
+            </article>
+        </section>
+
+        <section id="Introduction" class="main-section">
+            <header>Introduction</header>
+            <article>
+                <p>Perl is a general-purpose programming language originally developed for text manipulation and now
+                    used for a wide range of tasks including system administration, web development, network
+                    programming, GUI development, and more. Perl is intended to be practical rather than beautiful.</p>
+                <p>Its major features are that:
+                <ul>
+                    <li>easy to use</li>
+                    <li>supports both procedural and
+                        object-oriented (OO) programming</li>
+                    <li>has built-in support for text processing</li>
+                    <li> has large collection of third-party modules.</li>
+                </ul>
+                </p>
+            </article>
+
+        </section>
+
+        <section id="Running_Perl_Programs" class="main-section">
+            <header>Running Perl Programs</header>
+            <article>
+                <p>To run a Perl program from the Unix command line:</p>
+                <pre><code class="block-code">perl progname.pl</code></pre>
+                <p>Alternatively, put this as the first line of your script:</p>
+                <pre><code class="block-code">#!/usr/bin/env perl</code></pre>
+            </article>
+        </section>
+
+        <section id="Safetynet" class="main-section">
+            <header>Safetynet</header>
+            <article>
+                <p>Perl by default is very forgiving. In order to make it more robust it is recommended to start every
+                    program with the following lines:</p>
+
+                <pre><code class="block-code">#!/usr/bin/perl
+use strict;
+use warnings;</code></pre>
+
+                <p>The two additional lines request from perl to catch various common problems in your code. They check
+                    different things so you need both. A potential problem caught by <code
+                        class="inline-code">use strict;</code> will
+                    cause your code to
+                    stop immediately when it is encountered, while <code class="inline-code">use warnings;</code> will
+                    merely give a warning
+                    (like the
+                    command-line switch -w) and let your code run. </p>
+            </article>
+        </section>
+
+        <section id="Basic_Syntax" class="main-section">
+            <header>Basic Syntax</header>
+            <article>
+                <p>A Perl script or program consists of one or more statements. These statements are simply written in
+                    the script in a straightforward fashion. There is no need to have a main() function or anything of
+                    that kind.</p>
+                <p>Perl statements end in a semi-colon:</p>
+                <pre><code class="block-code">print "Hello, world";</code></pre>
+                Comments start with a hash symbol and run to the end of the line
+                <pre><code class="block-code"># This is a comment</code></pre>
+                <p>Whitespace is irrelevant:</p>
+                <pre><code class="block-code">print
+    "Hello, world"
+    ;</code></pre>
+                <p>except inside quoted strings:</p>
+                <pre><code class="block-code"># this would print with a linebreak in the middle
+print "Hello
+world";</code></pre>
+                <p>Double quotes or single quotes may be used around literal strings:</p>
+                <pre><code class="block-code">print "Hello, world";
+print 'Hello, world';</code></pre>
+                <p>However, only double quotes "interpolate" variables and special characters such as newlines (\n):</p>
+                <pre><code class="block-code">print "Hello, $name\n";    # works fine
+print 'Hello, $name\n';     # prints $name\n literally</code></pre>
+                <p>Numbers don't need quotes around them:</p>
+                <code class="block-code">print 42;</code>
+                <p>You can use parentheses for functions' arguments or omit them according to your personal taste. They
+                    are only required occasionally to clarify issues of precedence.</p>
+                <pre><code class="block-code">print("Hello, world\n");
+print "Hello, world\n";</code></pre>
+            </article>
+        </section>
+
+        <section id="Summary" class="main-section">
+            <header>Summary</header>
+            <article>
+                <p>In this introduction you have a very breif understanding of:
+                <ul>
+                    <li>What is Perl</li>
+                    <li>How to run Perl program</li>
+                    <li>Basic Syntax</li>
+                </ul>
+                </p>
+                <p>All the documentation in this page is taken from <a href="https://perldoc.perl.org/"
+                        target="_blank">Official Perl Documentation.</a></p>
+            </article>
+        </section>
+    </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
