@@ -1,14 +1,16 @@
-FreeCodeCamp Projects
-==========
+# FreeCodeCamp Projects
+
 This is a repository of projects made for [freeCodeCamp.org](https://www.freecodecamp.org/) course certifications. FreeCodeCamp provides six modules to learn Front End Developmet and requires successful completion of five projects at end of each module to progress. This repository will be updated after each module completion.
+
 - [x] Responsive Web Design
-- [ ] JavaScript Algorithms and Data Structures
+- [x] JavaScript Algorithms and Data Structures
 - [ ] Front End Development Libraries
 - [ ] Data Visualization
 - [ ] APIs and Microservices
 - [ ] Quality Assurance
 
 ## Responsive Web Design Projects
+
 This module required using HTML and plain CSS to build responsive webpages while fulfilling freeCodeCamp's user stories.
 | Requirements | Solution |
 |--- | :---: |
@@ -18,3 +20,9 @@ This module required using HTML and plain CSS to build responsive webpages while
 | [Technical Documentation Page](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-technical-documentation-page) | [link](https://sshnuke333.github.io/Freecodecamp-Projects/FCC-Responsive%20Web%20Design/Documentation-page.html) |
 | [Personal Portfolio](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-personal-portfolio-webpage) | [link](https://sshnuke333.github.io/Freecodecamp-Projects/FCC-Responsive%20Web%20Design/portfolio-page.html)
 </br>
+
+## Certificates
+
+[Responsive Web Design Projects](https://www.freecodecamp.org/certification/sshnuke/responsive-web-design)
+
+[JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/certification/sshnuke/javascript-algorithms-and-data-structures)
