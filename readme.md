@@ -19,7 +19,14 @@ This module required using HTML and plain CSS to build responsive webpages while
 | [Product Landing Page](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page) | [link](https://sshnuke333.github.io/Freecodecamp-Projects/FCC-Responsive%20Web%20Design/product-page.html) |
 | [Technical Documentation Page](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-technical-documentation-page) | [link](https://sshnuke333.github.io/Freecodecamp-Projects/FCC-Responsive%20Web%20Design/Documentation-page.html) |
 | [Personal Portfolio](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-personal-portfolio-webpage) | [link](https://sshnuke333.github.io/Freecodecamp-Projects/FCC-Responsive%20Web%20Design/portfolio-page.html)
-</br>
+
+## Front End Development Libraries
+
+This module required using React and Redux to complete the projects while fulfilling user stories.
+| Requirements | Solution |
+|--- | :---: |
+| [Random Quote Machine](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-random-quote-machine) | [link](https://sshnuke333.github.io/Random-Quote-Machine) |
+| [Markdown Previewer](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-markdown-previewer) | [link](https://sshnuke333.github.io/Markdown-Previewer)
 
 ## Certificates
 
