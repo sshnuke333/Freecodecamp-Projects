@@ -27,6 +27,8 @@ This module required using React and Redux to complete the projects while fulfil
 |--- | :---: |
 | [Random Quote Machine](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-random-quote-machine) | [link](https://sshnuke333.github.io/Random-Quote-Machine) |
 | [Markdown Previewer](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-markdown-previewer) | [link](https://sshnuke333.github.io/Markdown-Previewer)
+| [Drum Machine](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-drum-machine) | [link](https://sshnuke333.github.io/Drum-Machine)
+| [Javascript Calculator](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-javascript-calculator) | [link](https://sshnuke333.github.io/Calculator)
 
 ## Certificates
 
