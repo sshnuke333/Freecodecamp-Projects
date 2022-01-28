@@ -4,7 +4,7 @@ This is a repository of projects made for [freeCodeCamp.org](https://www.freecod
 
 - [x] Responsive Web Design
 - [x] JavaScript Algorithms and Data Structures
-- [ ] Front End Development Libraries
+- [x] Front End Development Libraries
 - [ ] Data Visualization
 - [ ] APIs and Microservices
 - [ ] Quality Assurance
@@ -29,9 +29,12 @@ This module required using React and Redux to complete the projects while fulfil
 | [Markdown Previewer](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-markdown-previewer) | [link](https://sshnuke333.github.io/Markdown-Previewer)
 | [Drum Machine](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-drum-machine) | [link](https://sshnuke333.github.io/Drum-Machine)
 | [Javascript Calculator](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-javascript-calculator) | [link](https://sshnuke333.github.io/Calculator)
+| [25 + 5 Clock](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-25--5-clock) | [link](https://sshnuke333.github.io/Pomodoro-Timer/)
 
 ## Certificates
 
 [Responsive Web Design Projects](https://www.freecodecamp.org/certification/sshnuke/responsive-web-design)
 
 [JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/certification/sshnuke/javascript-algorithms-and-data-structures)
+
+[Front End Development Libraries](https://www.freecodecamp.org/certification/sshnuke/front-end-development-libraries)
